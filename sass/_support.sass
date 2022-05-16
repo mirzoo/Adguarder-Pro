@@ -1,0 +1,58 @@
+.support
+    padding: 150px 0
+    &__wrap
+        display: flex
+        flex-direction: column
+        flex-wrap: wrap
+        align-content: center
+        justify-content: center
+        align-items: center
+    &__content
+        text-align: center
+    &__title
+        font-weight: 700
+        font-size: 43px
+        line-height: 54px
+        margin-bottom: 16px
+    &__subtitle
+        font-size: 18px
+        font-weight: 400
+        line-height: 23px
+        color: rgba(19, 27, 99, 0.5)
+
+.form
+    &__input
+        border-radius: 16px
+        border: none
+        height: 32px
+        width: 100%
+        padding: 16px
+        margin-top: 20px
+        font-size: 16px
+        color: #131B63
+        background-color: #f2f1ff
+    &__button
+        border-radius: 16px
+        background: #8B7FFE
+        color: #FFFFFF
+        width: 105%
+        padding: 16px
+        font-size: 16px
+        border: none
+        transition: box-shadow 0.2s ease
+        margin-top: 40px
+        cursor: pointer
+        &:hover
+            box-shadow: 0px 8px 30px rgba(139, 127, 254, 0.25)
+textarea
+    min-height: 110px
+    resize: none
+
+
+@media ( max-width: 425px)
+    .support
+        padding: 100px 20px
+        &__title
+            font-size: 32px
+        &__subtitle
+            font-size: 16px

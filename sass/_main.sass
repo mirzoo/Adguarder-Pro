@@ -1,0 +1,55 @@
+.main
+    &-wrap
+        display: flex
+        position: relative
+        padding: 150px 10px
+    &-text
+        display: flex
+        flex-direction: column
+        &__title
+            font-size: 70px
+            color: #3ACE5A
+            font-weight: bold
+        &__subtitle
+            font-size: 22px
+            color: #616161
+            font-weight: normal
+            margin-top: 16px
+        &__button
+            margin-top: 55px
+    &-img
+        position: absolute
+        top: -120px
+        right: -16%
+
+
+@media (max-width: 768px)
+    .main
+        &-wrap
+            padding: 80px 10px
+        &-text
+            &__title
+                font-size: 50px
+            &__subtitle
+                font-size: 18px
+        &-img
+            max-width: 400px
+            top: -90px
+            right: -20px
+
+
+@media (max-width: 320px)
+    .main
+        &-wrap
+            padding-bottom: 50px
+        &-text
+            margin-top: 180px
+            text-align: center
+            &__title
+                font-size: 40px
+            &__subtitle
+                font-size: 18px
+        &-img
+            max-width: 350px
+            top: -90px
+            right: -20px

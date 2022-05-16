@@ -1,2 +1,2 @@
-# Adguarder-Pro
-Blocker for iOS
+# CleanEasy
+Cleaner for iOs
